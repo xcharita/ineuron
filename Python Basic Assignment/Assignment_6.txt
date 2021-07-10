@@ -1,0 +1,48 @@
+1. What are escape characters, and how do you use them?
+escape characters start with a Ô\Õ and means to use temporarily another mode (by escaping) to use the character after the backslash accordingly. 
+
+2. What do the escape characters n and t stand for?
+\n means linefeed in ASCII, cursor will go to next line ; \t cursor will go horizontally to the next tab (ASCII)
+
+3. What is the way to include backslash characters in a string?
+For example if we would like to use a ÔÕÕ in a text it is better to use the escape character \Õword\Õ to get the quote-unquote around the word
+
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+
+
+5. How do you write a string of newlines if you don't want to use the n character?
+you can use end=Ô Ô  in the print() method
+
+
+6. What are the values of the given expressions?
+
+'Hello, world!'[1]	e
+'Hello, world!'[0:5]	Hello
+'Hello, world!'[:5]	Hello
+'Hello, world!'[3:]	lo, world!
+
+7. What are the values of the following expressions?
+
+'Hello'.upper()			HELLO	
+'Hello'.upper().isupper()	True
+'Hello'.upper().lower()		hello
+
+8. What are the values of the following expressions?
+
+'Remember, remember, the fifth of July.'.split()
+[ÔRemember,Õ  ,  Ôremember,Õ  ,  ÔtheÕ  ,  ÔfifthÕ  ,  ÔofÕ  ,  ÔJuly.Õ]
+
+'-'.join('There can only one.'.split())
+There-can-only-one.
+
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+rjust() 
+ljust()
+center()
+
+10. What is the best way to remove whitespace characters from the start or end?
+use the strip() method
+
+
+
