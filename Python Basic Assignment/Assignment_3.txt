@@ -1,0 +1,29 @@
+1. What are the benefits of including roles in the programmes?
+In this way we can reuse code
+2. When does the code in a function run: when it's specified or when it's called?
+when it is called
+3. What statement causes a feature to be created?
+with an instantiation
+4. What is the distinction between a function and a call to a function?
+the function is not compiled until it is called
+5. In a Python application, how many global scopes are there? How many local scopes are there?
+global scope is at least one; local scope doesnÕt need to be in an application but can be from 0..n
+6. When a function call returns, what happens to variables in the local scope?
+they stay local only a global variable can have different assignments
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+the return value gives the value back after compiling the function; it is possible to have an expression in a return
+8. What is the return value of a call to a function that does not have a return statement?
+whatever assignments happens within the function but will not give anything back in return
+9. How do you make a function variable refer to the global variable?
+use the name of the global variable
+10. What data form does None belong to?
+object
+11. What does the sentence import areallyourpetsnamederic do?
+import combines two operations; it searches for the named module, then it binds the results of that search to a name in the local scope
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+b = bacon()
+13. What can you do to save a programme from crashing if it encounters an error?
+use try and except
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+The try block lets you test a block of code for errors. 
+The except block lets you handle the error.
